@@ -1,0 +1,15 @@
+# Build output
+/timeseriesui
+/timeseriesui.exe
+/bin/
+/release/
+
+# UI build artifacts (committed intentionally for embedded builds;
+# ui/dist/
+
+# Node
+ui/node_modules/
+
+# Go
+*.test
+*.out
