@@ -32,11 +32,11 @@ jobs:
 
       - name: Build for GitHub Pages
         working-directory: ui
-        run: npx vite build --base /timeSeriesUI/playground/
+        run: npx vite build --base /TimeSeriesUI/playground/
 
       - name: Prepare deployment
         run: |
-          REPO_NAME="timeSeriesUI"
+          REPO_NAME="TimeSeriesUI"
           mkdir -p _site/playground
 
           # Set __TSUI_BASE__ to the repo path for GitHub Pages
